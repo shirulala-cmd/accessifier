@@ -1,0 +1,14 @@
+# חבילות פייתון
+pikepdf>=9.0
+pymupdf>=1.24
+weasyprint>=62.0
+ocrmypdf>=16.0
+
+# לפיתוח ולבדיקות
+pytest>=8.0
+
+# תלויות חיצוניות שאינן נתקנות דרך pip — ראי README:
+#   tesseract-ocr  +  tesseract-ocr-heb   (OCR לעברית. בלי חבילת העברית סריקות ייצאו ג'יבריש)
+#   ghostscript                            (נדרש ל-ocrmypdf)
+#   pango, cairo, gdk-pixbuf               (נדרשים ל-WeasyPrint)
+#   verapdf (אופציונלי)                    (בדיקת תאימות PDF/UA רשמית, דורש Java)
